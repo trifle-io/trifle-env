@@ -1,4 +1,6 @@
-require "trifle/env/version"
+# frozen_string_literal: true
+
+require 'trifle/env/version'
 
 module Trifle
   module Env
