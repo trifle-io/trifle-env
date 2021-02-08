@@ -39,7 +39,7 @@ Trifle::Env['CLIENT_SECRET'] = 'supersecretclientsecret'
 
 require 'oauth2'
 client = OAuth2::Client.new(Trifle::Env['CLIENT_ID'], Trifle::Env['CLIENT_SECRET'], site: 'https://example.org')
-...
+```
 
 ## Contributing
 
